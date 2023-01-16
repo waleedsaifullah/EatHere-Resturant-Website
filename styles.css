@@ -603,4 +603,44 @@ p {
     height: 165px;
 }
 
+/* ------------------------FOOTER--------------------------- */
 
+.footer {
+    background: #000;
+    height: 200px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+}
+
+.footer .name {
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    flex: 1;
+}
+
+.footer .data {
+    flex: 1;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer .data p {
+    margin: 30px 0;
+}
+
+.footer .newsletter {
+    flex: 2;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.footer .newsletter p {
+    margin: 30px 0;
+}
