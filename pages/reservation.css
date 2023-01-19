@@ -63,3 +63,8 @@ a {
 p {
     color: #fff;
 }
+
+.header .hero {
+    display: flex;
+    align-items: center;
+}
